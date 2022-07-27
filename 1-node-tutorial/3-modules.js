@@ -5,10 +5,14 @@
 const { sasche, paola } = require("./4-name");
 const names = require("./4-name");
 const sayHi = require("./5-utils");
-const data = require("./6-alternative-flavor");
-require("./7-mind-grenade");
+let data = require("./6-alternative-flavor").singlePerson;
+// data = data.singlePerson;
+// console.log("🚀 ~ file: 3-modules.js ~ line 9 ~ data", data);
+
+// require("./7-mind-grenade");
 
 sayHi(`${sasche}, \'destructured\'`);
 sayHi(`${paola}, \'destructured\'`);
 sayHi(`${names.sasche}, \'property names\'`);
 sayHi("Jose, 'function + string assign'");
+sayHi(`${data.name}`);

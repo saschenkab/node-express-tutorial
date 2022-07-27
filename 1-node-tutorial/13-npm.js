@@ -1,4 +1,4 @@
-// npm  - globale command, comes with node.
+// npm  - global command, comes with node.
 // npm  --version
 
 // local depedency  - use it only in this particular project
